@@ -9,5 +9,15 @@ function missingNumPush (){
   }
 }
 
-change
+var str = 'tacocat';
+
+function palindrome (){
+  var strReverse = str.split('').reverse().join('');
+  if( str === strReverse ){
+    return "yes, a palindrome!";
+  }else{
+    return"nope!";
+  }
+}
+
 
